@@ -1,0 +1,33 @@
+.header {
+  padding: 22px 0 9px;
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list {
+    @include font($colorblue, 16px, normal, $font-robo, normal);
+
+    line-height: 21px;
+    margin-right: 48px;
+  }
+  &__list3 {
+    @include font($colorblue, 16px, normal, $font-robo, normal);
+
+    line-height: 21px;
+  }
+
+  &__button {
+    @include font($colorblue, 11px, bold, $font-robo, normal);
+    line-height: 17px;
+    margin-left: 100px;
+    padding: 6px 24px;
+    background: #ffffff;
+    border: 1px solid #a7bbc9;
+    border-radius: 5px;
+  }
+  &__menu-row {
+    display: flex;
+    align-items: center;
+  }
+}

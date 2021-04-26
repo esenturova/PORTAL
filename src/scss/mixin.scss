@@ -1,0 +1,17 @@
+@mixin font ($color, $size, $weight, $family ,$style){
+    color:$color;
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+    font-style: $style;
+    
+}
+@mixin hover($bg-color, $opac){
+    background-color: $bg-color;
+    opacity: $opac;
+}
+@mixin flex-center($acenter:center, $jcenter:center){
+    display: flex;
+    align-items: $acenter;
+    justify-content: $jcenter;
+}
